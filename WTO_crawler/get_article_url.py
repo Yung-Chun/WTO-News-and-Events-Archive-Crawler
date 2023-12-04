@@ -92,9 +92,8 @@ def get_elements_from_press(subMenu, page):
         trs = centerCol.find_elements(By.TAG_NAME, 'tr')
         for tr in trs:
             for td in tr.find_elements(By.TAG_NAME, 'td'):
-                for x in td.find_elements(By.CLASS_NAME, 'paracolourtext'):
-                    if len(x.text) > 8:
-                        title = x.text
+                for x in td.find_elements(By.TAG_NAME, 'h3'):
+                    title = x.text
                 for link in td.find_elements(By.TAG_NAME, 'a'):
                     type = link.text
                     url = link.get_attribute('href')
@@ -105,8 +104,8 @@ def get_elements_from_press(subMenu, page):
         trs = centerCol.find_elements(By.TAG_NAME, 'tr')
         for tr in trs:
             for td in tr.find_elements(By.TAG_NAME, 'td'):
-                title = None
                 for link in td.find_elements(By.TAG_NAME, 'a'):
+                    title = link.text
                     type = link.text
                     url = link.get_attribute('href')
                     df.append([title, type, url])
@@ -122,8 +121,8 @@ def get_elements_from_dg(subMenu, page):
         trs = centerCol.find_elements(By.TAG_NAME, 'tr')
         for tr in trs:
             for td in tr.find_elements(By.TAG_NAME, 'td'):
-                title = None
                 for link in td.find_elements(By.TAG_NAME, 'a'):
+                    title = link.text
                     type = link.text
                     url = link.get_attribute('href')
                     df.append([title, type, url])
@@ -215,8 +214,8 @@ for subMenu in targetMenuUrlDict.keys():
     if subMenu in [
         'News archives', 
         'Press releases', 
-       'DG speeches', 
-    #    'Subject archives'
+    #    'DG speeches', 
+       'Subject archives'
                        ]:
         pass
 
@@ -231,7 +230,7 @@ for subMenu in targetMenuUrlDict.keys():
 
         # go to the page of each submenu
         for idx, page in enumerate(targetMenuUrlDict[subMenu].keys()):
-            if idx >= 116:
+            if idx >= 3:
                 print(page)
                 pagePageName = page.replace(' ', '_')
                 url = targetMenuUrlDict[subMenu][page]

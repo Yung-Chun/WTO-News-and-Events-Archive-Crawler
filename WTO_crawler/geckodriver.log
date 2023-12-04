@@ -4579,3 +4579,138 @@ Read port: 50367
 1700882533522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
 1700882555816	Marionette	INFO	Stopped listening on port 50367
+1701725292652	geckodriver	INFO	Listening on 127.0.0.1:62601
+1701725293711	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofile2VA4jL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:28:15.463 firefox-bin[16448:3526551] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725295805	Marionette	INFO	Marionette enabled
+1701725296357	Marionette	INFO	Listening on port 62632
+Read port: 62632
+1701725296674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701725325860	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3782: TypeError: this._windows[aWindow.__SSi] is undefined
+1701725339114	geckodriver	INFO	Listening on 127.0.0.1:62842
+1701725340175	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofile0qCDZm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:29:00.922 firefox-bin[16466:3527557] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725341284	Marionette	INFO	Marionette enabled
+1701725341607	Marionette	INFO	Listening on port 62862
+Read port: 62862
+1701725341752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725372038	Marionette	INFO	Stopped listening on port 62632
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1701725372256	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701725373952	Marionette	INFO	Stopped listening on port 62862
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1701725378162	geckodriver	INFO	Listening on 127.0.0.1:63057
+1701725379212	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofiletPjwnW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:29:40.376 firefox-bin[16494:3528659] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725380685	Marionette	INFO	Marionette enabled
+1701725380969	Marionette	INFO	Listening on port 63081
+Read port: 63081
+1701725381066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725412566	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725560858	geckodriver	INFO	Listening on 127.0.0.1:63902
+1701725561919	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofilewLvDy9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:32:43.396 firefox-bin[16706:3531671] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725563771	Marionette	INFO	Marionette enabled
+1701725564586	Marionette	INFO	Listening on port 63931
+Read port: 63931
+1701725564771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725569732	Marionette	INFO	Stopped listening on port 63081
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1701725586442	Marionette	INFO	Stopped listening on port 63931
+1701725614135	geckodriver	INFO	Listening on 127.0.0.1:64192
+1701725615201	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofileFHJcgv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:33:36.064 firefox-bin[16910:3533324] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725616347	Marionette	INFO	Marionette enabled
+1701725616793	Marionette	INFO	Listening on port 64212
+Read port: 64212
+1701725616908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701725646408	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://www.wto.org/library/wtomenus/jkmegamenu.js, line 7: ReferenceError: jQuery is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701725686552	geckodriver	INFO	Listening on 127.0.0.1:64541
+1701725687628	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofilesCeJtI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:34:48.854 firefox-bin[16955:3535023] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725689241	Marionette	INFO	Marionette enabled
+1701725689728	Marionette	INFO	Listening on port 64567
+Read port: 64567
+1701725689979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-12-04 13:34:51.327 firefox-bin[16955:3535023] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725720879	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://www.wto.org/library/wtomenus/loader_wide_2011.js, line 914: ReferenceError: MobileDetect is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1701725863395	geckodriver	INFO	Listening on 127.0.0.1:65364
+1701725864469	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofileIz3pfT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:37:45.885 firefox-bin[17101:3538251] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701725866249	Marionette	INFO	Marionette enabled
+1701725866704	Marionette	INFO	Listening on port 65388
+Read port: 65388
+1701725866868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701725897496	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://www.wto.org/library/wtomenus/loader_wide_2011.js, line 15: ReferenceError: bnr_menu_text is not defined
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701726272761	Marionette	INFO	Stopped listening on port 65388
+1701726796750	geckodriver	INFO	Listening on 127.0.0.1:53033
+1701726797827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6v/7554hy7n5zg4dv7nymqqshmm0000gn/T/rust_mozprofilejXglVp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-04 13:53:19.442 firefox-bin[17802:3546822] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1701726800099	Marionette	INFO	Marionette enabled
+1701726800865	Marionette	INFO	Listening on port 53066
+Read port: 53066
+1701726801152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701726832816	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701726882303	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.wto.org/library/wtomenus/jquery.min.js, line 19: unreachable code after return statement
+1701726916127	Marionette	INFO	Stopped listening on port 53066
