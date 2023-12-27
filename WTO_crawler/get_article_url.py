@@ -9,7 +9,7 @@ import os.path
 import pandas as pd
 
 # open the browser and get the page
-driver = webdriver.Firefox(executable_path=r'./geckodriver')
+driver = webdriver.Firefox(executable_path=r'../geckodriver')
 
 def get_code(length):
     return ''.join(random.choice(string.ascii_letters + string.digits) for i in range(length))

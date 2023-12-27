@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import json
 
 # open the browser and get the page
-driver = webdriver.Firefox(executable_path=r'/Users/ycchen/geckodriver')
+driver = webdriver.Firefox(executable_path=r'../geckodriver')
 driver.get("https://www.wto.org/english/news_e/news_e.htm#archives")
 
 # get all titles under TreeviewSpanArea and store needed in a dictionary
