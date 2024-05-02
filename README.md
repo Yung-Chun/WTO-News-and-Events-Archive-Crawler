@@ -1,6 +1,6 @@
 # WTO News and Events Archive Crawler
 
-This repository contains a crawler designed to retrieve all archives from the [WTO News and Events](https://www.wto.org/english/news_e/news_e.htm) section. The scripts utilize the Selenium Python package to scrape the website. The data, including articles and their details, is stored in CSV format for easy access and manipulation.
+This repository contains a crawler designed to retrieve all archives from the [WTO News and Events](https://www.wto.org/english/news_e/news_e.htm) section. The scripts utilize the Selenium Python package to scrape the website. The data, including articles and their details, is stored in JSON format for easy access and manipulation.
 
 ## Crawler Workflow
 
