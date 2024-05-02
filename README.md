@@ -10,7 +10,7 @@ The crawler operates in the following steps:
 
 2. **Collecting Article URLs**: Run `get_article_url.py` to gather URLs for each article listed under each submenu. For each submenu, the URLs will be saved in a CSV file in the path `f'../WTO_data_article/{menuPathName}'`.
 
-3. **Extracting Article Details**: Use `get_article_content.py` to scrape and retrieve details from each individual article. If the article is successfully crawled, it will be saved in a JSON file named `all_article_content.json`, otherwise it is logged as a failed recorded in `fail_record.json`. 
+3. **Extracting Article Details**: Use `get_article_content.py` to scrape and retrieve details from each individual article. If the article is successfully crawled, it will be saved in a JSON file named `all_article_content.json`, otherwise it is logged in `fail_record.json`. 
 
 4. **Date Correction**: Use `correct_date.ipynb` to adjust any discrepancies in dates. Modify the code if you find other patterns for data cleansing. Please note that this repository currently does not offer functionality for label correction.
 
